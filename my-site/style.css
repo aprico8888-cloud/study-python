@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #111;
+  color: white;
+}
+
+/* ヒーロー */
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* タイトル */
+.hero h1 {
+  font-size: 80px;
+  margin: 0;
+}
+
+/* セクション */
+section {
+  padding: 60px;
+}
+
+/* スキル */
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* 隠しリンク */
+.secret-link {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: transparent;
+}
